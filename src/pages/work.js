@@ -5,7 +5,10 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO
+      title="Work done by Viral Patel | Software Developer | Toronto"
+      keywords={[`gatsby`, `application`, `react`]}
+    />
     Work Page
   </Layout>
 )

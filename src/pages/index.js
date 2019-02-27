@@ -6,7 +6,10 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO
+      title="Home | Viral Patel | Software Developer | Toronto"
+      keywords={[`gatsby`, `application`, `react`]}
+    />
     <div className="l-container">
       <h1 className="a-type-xxl m-masthead__heading">
         Hey, I’m Viral! <br /> A Full Stack Software Developer
@@ -23,22 +26,22 @@ const IndexPage = () => (
       <div className="t-home__schedule-work-history">
         <div className="m-content t-home__schedule">
           <div className="a-type-content m-content__content">
-            <h2>What I’m busy working on</h2>{' '}
+            <h2>What I’m busy working on</h2>{" "}
             <ul>
-              {' '}
+              {" "}
               <li>
-                Working at{' '}
+                Working at{" "}
                 <a
                   href="http://www.pathfactory.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   PathFactory
-                </a>{' '}
+                </a>{" "}
                 on some exciting projects
-              </li>{' '}
+              </li>{" "}
               <li>
-                Working on my side project –{' '}
+                Working on my side project –{" "}
                 <a
                   href="https://t.imer.app/"
                   target="_blank"
@@ -47,13 +50,13 @@ const IndexPage = () => (
                   T.imer App
                 </a>
                 ; a web app for pomodoro timer
-              </li>{' '}
+              </li>{" "}
               <li>
                 Writing new tutorials – mostly focused on application
                 development and cloud technologies
-              </li>{' '}
+              </li>{" "}
               <li>
-                Listening to audiobook{' '}
+                Listening to audiobook{" "}
                 <a
                   href="https://www.audible.ca/pd/Atomic-Habits-Audiobook/B07GBGQJSW?qid=1550204338&sr=1-1&ref=a_search_c3_lProduct_1_1&pf_rd_p=65c74350-6dfb-47fa-85fd-1459a4762abd&pf_rd_r=GRX678MKASEWQT79RNMG&"
                   target="_blank"
@@ -61,9 +64,9 @@ const IndexPage = () => (
                 >
                   Atom Habits
                 </a>
-              </li>{' '}
+              </li>{" "}
               <li>
-                Reading{' '}
+                Reading{" "}
                 <a
                   href="https://www.amazon.ca/gp/product/0596528124/ref=ppx_yo_dt_b_asin_title_o00__o00_s00?ie=UTF8&psc=1"
                   target="_blank"
@@ -71,7 +74,7 @@ const IndexPage = () => (
                 >
                   Mastering Regular Expressions
                 </a>
-                ,{' '}
+                ,{" "}
                 <a
                   href="https://www.amazon.ca/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=sr_1_1?crid=Q7WX0FU1Y3QJ&keywords=design+patterns&qid=1550114327&s=books&sprefix=design+pat%2Cstripbooks%2C158&sr=1-1"
                   target="_blank"
@@ -79,8 +82,8 @@ const IndexPage = () => (
                 >
                   Design Patterns - Elements of Reusable Object-Oriented
                   Software
-                </a>{' '}
-                and{' '}
+                </a>{" "}
+                and{" "}
                 <a
                   href="https://www.amazon.ca/gp/product/0307273601/ref=ppx_yo_dt_b_asin_title_o07__o00_s00?ie=UTF8&psc=1"
                   target="_blank"
@@ -88,7 +91,7 @@ const IndexPage = () => (
                 >
                   Daily Rituals - How Artists Work
                 </a>
-              </li>{' '}
+              </li>{" "}
             </ul>
           </div>
         </div>
@@ -110,8 +113,8 @@ const IndexPage = () => (
                       dateTime="2018"
                     >
                       2018
-                    </time>{' '}
-                    -{' '}
+                    </time>{" "}
+                    -{" "}
                     <time
                       className="m-work-history-item__date-to"
                       dateTime="2019"
@@ -138,8 +141,8 @@ const IndexPage = () => (
                       dateTime="2017"
                     >
                       2017
-                    </time>{' '}
-                    -{' '}
+                    </time>{" "}
+                    -{" "}
                     <time
                       className="m-work-history-item__date-to"
                       dateTime="2018"
@@ -166,8 +169,8 @@ const IndexPage = () => (
                       dateTime="2016"
                     >
                       2016
-                    </time>{' '}
-                    -{' '}
+                    </time>{" "}
+                    -{" "}
                     <time
                       className="m-work-history-item__date-to"
                       dateTime="2017"
@@ -194,8 +197,8 @@ const IndexPage = () => (
                       dateTime="2014"
                     >
                       2014
-                    </time>{' '}
-                    -{' '}
+                    </time>{" "}
+                    -{" "}
                     <time
                       className="m-work-history-item__date-to"
                       dateTime="2016"
@@ -230,7 +233,7 @@ const IndexPage = () => (
       >
         <div className="m-call-to-action__content">
           <h2 className="a-type-lg m-call-to-action__heading">
-            I’m <span className="m-call-to-action__highlight">available</span>{' '}
+            I’m <span className="m-call-to-action__highlight">available</span>{" "}
             for new website and application development work
           </h2>
 
@@ -260,7 +263,7 @@ const IndexPage = () => (
             Learn more about web development work...
           </h2>
           <Link to="/blog" className="a-link m-call-to-action-link__link">
-              blog
+            blog
           </Link>
         </div>
       </section>
