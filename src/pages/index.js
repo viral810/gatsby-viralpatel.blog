@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -260,10 +259,8 @@ const IndexPage = () => (
           <h2 className="a-type-xs m-call-to-action-link__heading">
             Learn more about web development work...
           </h2>
-          <Link href="/contact">
-            <a className="a-link m-call-to-action-link__link" href="./work">
+          <Link to="/blog" className="a-link m-call-to-action-link__link">
               blog
-            </a>
           </Link>
         </div>
       </section>

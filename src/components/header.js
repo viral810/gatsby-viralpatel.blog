@@ -12,13 +12,11 @@ const showMenuListener = () => {
 const Header = ({ siteTitle }) => (
        <header className="o-header">
       <div className="o-header__container">
-        <Link to="/">
-          <a className="o-header__logo" aria-label="Home">
+        <Link to="/" className="o-header__logo" >
             <span className="a-button a-button--square o-header__logo-mark">
               <span className="o-header__logo-mark-text">VP</span>
             </span>
             <span className="o-header__logo-text">Viral Patel</span>
-          </a>
         </Link>
         <nav
           className="m-nav js-nav"
@@ -56,18 +54,18 @@ const Header = ({ siteTitle }) => (
             <div className="m-nav__menu-inner">
               <ul className="m-nav__menu-list" role="menubar">
                 <li className="m-nav__menu-item" role="menuitem">
-                  <Link to="/what-i-am-reading">
-                    <a className="a-link m-nav__menu-link">Books I Read</a>
+                  <Link to="/what-i-am-reading" className="a-link m-nav__menu-link">
+                    Books I Read
                   </Link>
                 </li>
                 <li className="m-nav__menu-item" role="menuitem">
-                  <Link to="/blog">
-                    <a className="a-link m-nav__menu-link">Blog</a>
+                  <Link to="/blog" className="a-link m-nav__menu-link">
+                    Blog
                   </Link>
                 </li>
                 <li className="m-nav__menu-item" role="menuitem">
-                  <Link to="/contact">
-                    <a className="a-button m-nav__menu-button">Contact</a>
+                  <Link to="/contact" className="a-button m-nav__menu-button">
+                    Contact
                   </Link>
                 </li>
               </ul>

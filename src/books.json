@@ -1,0 +1,58 @@
+{
+  "books": [
+    {
+      "title": "Python Data Science Handbook",
+      "author": "Jake VanderPlas",
+      "link": "https://amzn.to/2Ej0Nr4",
+      "poster": "https://images-na.ssl-images-amazon.com/images/I/51MPp7yuZCL._SX389_BO1,204,203,200_.jpg"
+    },
+    {
+      "title": "Head First Design Patterns",
+      "author": "Eric Freeman",
+      "link": "https://amzn.to/2Xa2O0g",
+      "poster": "https://images-na.ssl-images-amazon.com/images/I/61ZG-hATOeL._SX430_BO1,204,203,200_.jpg"
+    },
+    {
+      "title": "Hands-On Machine Learning with Scikit-Learn and TensorFlow",
+      "author": "Aurélien Géron",
+      "link": "https://amzn.to/2GQAg6k",
+      "poster": "https://images-na.ssl-images-amazon.com/images/I/51%2BkYprYK1L._SX379_BO1,204,203,200_.jpg"
+    },
+    {
+      "title": "Introduction to Algorithms",
+      "author": "H S Chawla",
+      "link": "https://amzn.to/2IpJVmD",
+      "poster": "https://images-na.ssl-images-amazon.com/images/I/41PpogZtaOL._SX359_BO1,204,203,200_.jpg"
+    },
+    {
+      "title": "Clean Architecture",
+      "author": "Robert C. Martin",
+      "link": "https://amzn.to/2GP6miG",
+      "poster": "https://images-na.ssl-images-amazon.com/images/I/41BjtnvIUQL._SX382_BO1,204,203,200_.jpg"
+    },
+    {
+      "title": "Functional Thinking: Paradigm Over Syntax",
+      "author": "Neal Ford",
+      "link": "https://amzn.to/2V7Fs9E",
+      "poster": "https://images-na.ssl-images-amazon.com/images/I/51cZY20m78L._SX387_BO1,204,203,200_.jpg"
+    },
+    {
+      "title": "The Pragmatic Programmer",
+      "author": "Andrew Hunt and David Thomas",
+      "link": "https://amzn.to/2V7FpdY",
+      "poster": "https://images-na.ssl-images-amazon.com/images/I/41BKx1AxQWL._SX396_BO1,204,203,200_.jpg"
+    },
+    {
+      "title": "Getting Things Done: The Art of Stress-Free Productivity",
+      "author": "David Allen",
+      "link": "https://amzn.to/2NeiKKf",
+      "poster": "https://images-na.ssl-images-amazon.com/images/I/51W-ZL%2BQRlL._SX324_BO1,204,203,200_.jpg"
+    },
+    {
+      "title": "Daily Rituals: How Artists Work",
+      "author": "Mason Currey",
+      "link": "https://amzn.to/2EkB3L6",
+      "poster": "https://images-na.ssl-images-amazon.com/images/I/51dw-xmLLgL._SX335_BO1,204,203,200_.jpg"
+    }
+  ]
+}

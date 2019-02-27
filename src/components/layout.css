@@ -1,3 +1,4 @@
+/* eslint-disable */
 :root {
   --primary: #6ff9ff;
   --secondary: #b4ffff;
@@ -4562,12 +4563,10 @@ button:focus {
   height: 100%;
   overflow: auto;
 }
-@supports (max-height: -webkit-fill-available) {
+@supports (max-height: stretch) {
   .o-dialog__wrapper {
     height: auto;
-    max-height: -webkit-fill-available;
-    max-height: -moz-available;
-    max-height: fill-available;
+    max-height: stretch;
   }
 }
 .o-dialog__content {
