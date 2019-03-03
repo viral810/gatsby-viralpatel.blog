@@ -7,7 +7,22 @@ const IndexPage = () => (
   <Layout>
     <SEO
       title="Work done by Viral Patel | Software Developer | Toronto"
-      keywords={[`gatsby`, `application`, `react`]}
+      description="Viral Patel, Software Developer, a tech blogger working in Toronto, ON Canada. Follow Viral on Instagram and other social media on @thedecodedcoder"
+      keywords={[
+        `developer`,
+        `toronto`,
+        `react`,
+        `ruby on rails`,
+        `website`,
+        `wordpress`,
+        `javascript`,
+        "jekyll",
+        `blogger`,
+        `tech blogger`,
+        `books`,
+        `programming`,
+        `Website Design`,
+      ]}
     />
     Work Page
   </Layout>

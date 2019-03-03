@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Layout from '../components/layout';
+import SEO from "../components/seo"
+import Layout from "../components/layout"
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
@@ -8,24 +9,47 @@ export default function Template({
   const { frontmatter, html } = markdownRemark
   return (
     <Layout>
-    <header className="m-masthead l-spacing-bottom-1 m-masthead--offset">
-    <div className="m-masthead__content">
-      <h1 className="a-type-xxl m-masthead__heading">{frontmatter.title}</h1>
+      <SEO
+        title={`${
+          frontmatter.title
+        } | Viral Patel | Software Developer | Toronto`}
+        description="Viral Patel, Software Developer, a tech blogger working in Toronto, ON Canada. Follow Viral on Instagram and other social media on @thedecodedcoder"
+        keywords={[
+          `developer`,
+          `toronto`,
+          `react`,
+          `ruby on rails`,
+          `website`,
+          `wordpress`,
+          `javascript`,
+          "jekyll",
+          `blogger`,
+          `tech blogger`,
+          `books`,
+          `programming`,
+          `Website Design`,
+        ]}
+      />
+      <header className="m-masthead l-spacing-bottom-1 m-masthead--offset">
+        <div className="m-masthead__content">
+          <h1 className="a-type-xxl m-masthead__heading">
+            {frontmatter.title}
+          </h1>
 
-      <div className="m-masthead__description">
-        <p className="a-type-xs">
-          Tags: <u>{frontmatter.tags}</u>
-        </p>
+          <div className="m-masthead__description">
+            <p className="a-type-xs">
+              Tags: <u>{frontmatter.tags}</u>
+            </p>
+          </div>
+        </div>
+      </header>
+      <div className="m-content o-tutorial-article__content">
+        <div
+          className="a-type-content m-content__content"
+          dangerouslySetInnerHTML={{ __html: html }}
+        />
       </div>
-    </div>
-  </header>
-  <div className="m-content o-tutorial-article__content">
-    <div
-      className="a-type-content m-content__content"
-      dangerouslySetInnerHTML={{ __html: html }}
-    />
-  </div>
-  </Layout>
+    </Layout>
   )
 }
 

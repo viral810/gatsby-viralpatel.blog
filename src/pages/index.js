@@ -8,7 +8,19 @@ const IndexPage = () => (
   <Layout>
     <SEO
       title="Home | Viral Patel | Software Developer | Toronto"
-      keywords={[`gatsby`, `application`, `react`]}
+      description="Viral Patel Software Developer working in Toronto, ON Canada. Follow Viral on Instagram and other social media on @thedecodedcoder"
+      keywords={[
+        `developer`,
+        `toronto`,
+        `react`,
+        `ruby on rails`,
+        `website`,
+        `wordpress`,
+        `javascript`,
+        "jekyll",
+        `blogger`,
+        `tech blogger`,
+      ]}
     />
     <div className="l-container">
       <h1 className="a-type-xxl m-masthead__heading">

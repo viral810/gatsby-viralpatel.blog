@@ -1,6 +1,6 @@
 ---
 path: /blog/understanding-react-stateless-components
-title: Understanding React's stateless components
+title: Understanding React stateless components
 date: 2019-02-25
 tags: react, javascript, functional
 ---
@@ -11,7 +11,7 @@ The simplest way to define a stateless component is to write a Pure Javascript f
 
 ```js
 function Welcome(props) {
-  return <h1>Hello, {props.name}</h1>;
+  return <h1>Hello, {props.name}</h1>
 }
 ```
 
@@ -23,7 +23,7 @@ Whether you declare a component as a function or a class, it must never modify i
 
 ```js
 function sum(a, b) {
-  return a + b;
+  return a + b
 }
 ```
 
@@ -31,7 +31,7 @@ Here's an anti-pattern
 
 ```js
 function withdraw(account, amount) {
-  account.total -= amount;
+  account.total -= amount
 }
 ```
 

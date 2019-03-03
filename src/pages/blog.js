@@ -13,7 +13,19 @@ const BlogPage = ({ data }) => {
     <Layout>
       <SEO
         title="Blog | Viral Patel | Software Developer | Toronto"
-        keywords={[`blog`, `viral`, `react`]}
+        description="Viral Patel, Software Developer, a tech blogger working in Toronto, ON Canada. Follow Viral on Instagram and other social media on @thedecodedcoder"
+        keywords={[
+          `developer`,
+          `toronto`,
+          `react`,
+          `ruby on rails`,
+          `website`,
+          `wordpress`,
+          `javascript`,
+          "jekyll",
+          `blogger`,
+          `tech blogger`,
+        ]}
       />
       <header className="m-masthead l-spacing-bottom-1 m-masthead--offset">
         <h1 className="a-type-xxl m-masthead__heading">Tech Blogs</h1>

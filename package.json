@@ -41,12 +41,13 @@
   },
   "scripts": {
     "build": "gatsby build",
+    "clean": "rm -rf public/ .cache/",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
-    "deploy": "rm -rf public/ && npm run build && aws s3 cp public/ s3://viralpatel.blog --recursive --acl public-read --cache-control='max-age=31536000' --content-encoding='gzip'"
+    "deploy": "rm -rf public/ .cache/ && npm run build && aws s3 cp public/ s3://viralpatel.blog --recursive --acl public-read --cache-control='max-age=31536000' --content-encoding='gzip'"
   },
   "repository": {
     "type": "git",
