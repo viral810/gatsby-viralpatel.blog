@@ -24,29 +24,36 @@ const IndexPage = () => (
         `Website Design`,
       ]}
     />
-    <h3>
-      If you're wondering what language or technologies I used to built this
-      site.
-    </h3>
+    <header className="m-section-header l-spacing-bottom-1 m-section-header--offset">
+      <h2 className="a-type-lg m-section-header__heading">Tech Stack</h2>
 
-    <h4>Frameworks</h4>
-    <ul>
-      <li>React JS</li>
-      <li>Gatsby JS</li>
-    </ul>
+      <p className="m-section-header__description">
+        If you're wondering what language or technologies I used to built this
+        site.
+      </p>
+    </header>
+    <div className="m-content o-tutorial-article__content">
+      <div className="a-type-content m-content__content">
+        <h4>Frameworks</h4>
+        <ul>
+          <li>React JS</li>
+          <li>Gatsby JS</li>
+        </ul>
 
-    <h4>Deployment & Hosting</h4>
-    <ul>
-      <li>AWS S3</li>
-      <li>Cloudflare (Security and CDN)</li>
-    </ul>
+        <h4>Deployment & Hosting</h4>
+        <ul>
+          <li>AWS S3</li>
+          <li>Cloudflare (Security and CDN)</li>
+        </ul>
 
-    <h4>Web performance and Analytics</h4>
-    <ul>
-      <li>Google Analytics</li>
-      <li>Google PageSpeed Insights</li>
-      <li>Lighthouse Chrome DevTools</li>
-    </ul>
+        <h4>Web performance and Analytics</h4>
+        <ul>
+          <li>Google Analytics</li>
+          <li>Google PageSpeed Insights</li>
+          <li>Lighthouse Chrome DevTools</li>
+        </ul>
+      </div>
+    </div>
   </Layout>
 )
 
