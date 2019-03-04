@@ -5,11 +5,6 @@ const FormDialog = () => {
   const [email, setEmail] = useState("")
   const [emailSend, setEmailSend] = useState(false)
 
-  const onSubmit = event => {
-    event.preventDefault()
-    console.log(fname, email, emailSend)
-  }
-
   return (
     <dialog className="o-dialog js-dialog" data-hash="#newsletter">
       <div className="o-dialog__wrapper">
@@ -29,8 +24,7 @@ const FormDialog = () => {
             <div className="o-newsletter__content">
               <form
                 className="o-newsletter__form"
-                onSubmit={e => onSubmit(e)}
-                // action="//robsimpson.us15.list-manage.com/subscribe/post?u=14997b309dfb0b3e305921d3d&amp;id=e43ced8d62"
+                action="https://formspree.io/pviral810@gmail.com"
                 method="post"
               >
                 <fieldset className="o-newsletter__fieldset">
