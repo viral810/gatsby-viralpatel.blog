@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import FormDialog from "../components/form-dialog"
 
 const IndexPage = () => (
   <Layout>
@@ -24,6 +25,7 @@ const IndexPage = () => (
         `Website Design`,
       ]}
     />
+    <FormDialog />
     <header className="m-section-header l-spacing-bottom-1 m-section-header--offset">
       <h2 className="a-type-lg m-section-header__heading">Tech Stack</h2>
 
