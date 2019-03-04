@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react"
 
 const Footer = () => (
-  <footer className="o-footer">
+  <footer className="o-footer" style={{ marginTop: 35 }}>
     <div className="l-container o-footer__container">
       <div className="m-social-links ">
         <strong className="a-type-md m-social-links__label">
@@ -88,6 +88,6 @@ const Footer = () => (
       </div>
     </div>
   </footer>
-);
+)
 
-export default Footer;
+export default Footer
