@@ -2,12 +2,11 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import FormDialog from "../components/form-dialog"
 
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="Tech Stack| Viral Patel | Software Developer | Toronto"
+      title="Tech Stack | Viral Patel | Software Developer | Toronto"
       description="Viral Patel, Software Developer, a tech blogger working in Toronto, ON Canada. Follow Viral on Instagram and other social media on @thedecodedcoder"
       keywords={[
         `developer`,
@@ -25,7 +24,7 @@ const IndexPage = () => (
         `Website Design`,
       ]}
     />
-    <FormDialog />
+
     <header className="m-section-header l-spacing-bottom-1 m-section-header--offset">
       <h2 className="a-type-lg m-section-header__heading">Tech Stack</h2>
 

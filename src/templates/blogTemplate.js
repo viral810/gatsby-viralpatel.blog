@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
+import FormDialog from "../components/form-dialog"
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -50,6 +51,7 @@ export default function Template({
           className="a-type-content m-content__content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
+        <FormDialog />
       </div>
       <br />
       <br />

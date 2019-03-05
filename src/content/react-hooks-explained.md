@@ -34,5 +34,3 @@ Hooks only is an alternative way to use React concepts you already know: props, 
 #### Next steps
 
 Hope this article helps you understanding a motivation behind why Hooks were introduced but many details will be probably unclear. Click [this link to deep dive into Hooks](https://reactjs.org/docs/hooks-overview.html)
-
-Stay tuned for my second blog post to continue
