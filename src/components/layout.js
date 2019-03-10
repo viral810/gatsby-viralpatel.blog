@@ -21,9 +21,14 @@ const Layout = ({ children }) => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
         <main id="main-content">
-      <div className="l-container l-container--rel">{children}</div>
-    </main>
-          <Footer />
+          <div className="l-container l-container--rel">{children}</div>
+        </main>
+        <div id="amzn-assoc-ad-83f1be74-3746-4844-9035-abbea5ae82a5" />
+        <script
+          async
+          src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=83f1be74-3746-4844-9035-abbea5ae82a5"
+        />
+        <Footer />
       </>
     )}
   />
