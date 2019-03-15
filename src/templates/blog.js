@@ -4,6 +4,8 @@ import SEO from "../components/seo"
 import Layout from "../components/layout"
 import FormDialog from "../components/form-dialog"
 
+import kebabCase from "lodash/kebabCase"
+
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
@@ -44,7 +46,7 @@ export default function Template({
               Tags:{" "}
               {frontmatter.tags.map(tag => (
                 <>
-                  <Link to={`/tags/${tag}/`}>{tag}</Link>{" "}
+                  <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>{tag}</Link>{" "}
                 </>
               ))}
             </p>
