@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
 import FormDialog from "../components/form-dialog"
@@ -41,7 +41,12 @@ export default function Template({
 
           <div className="m-masthead__description">
             <p className="a-type-xs">
-              Tags: <u>{frontmatter.tags}</u>
+              Tags:{" "}
+              {frontmatter.tags.map(tag => (
+                <>
+                  <Link to={`/tags/${tag}/`}>{tag}</Link>{" "}
+                </>
+              ))}
             </p>
           </div>
         </div>

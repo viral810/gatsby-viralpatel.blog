@@ -2,7 +2,7 @@
 path: /blog/react-hooks-explained
 title: Why use React Hooks? Explained
 date: 2019-03-03
-tags: react, javascript, functional, hooks, stateless
+tags: ["react", "javascript", "functional", "hooks", "stateless"]
 ---
 
 ### Start with why?
