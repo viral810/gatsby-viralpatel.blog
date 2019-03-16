@@ -3,9 +3,11 @@ module.exports = {
     title: `Viral Patel | Software Developer | Toronto`,
     description: `Viral Patel | Software Developer | Toronto | thedecodedcoder.`,
     author: `@thedecodedcoder`,
+    siteUrl: `https://viralpatel.blog`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-google-analytics`,
