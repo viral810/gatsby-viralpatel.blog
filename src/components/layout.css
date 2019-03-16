@@ -5,6 +5,8 @@
   --body-background: #f4feff;
   --body-text: #212b36;
   --theme-background: #fff;
+  --gradient-from: rgba(248, 250, 252, 0);
+  --gardient-to: #f8fafc;
 }
 
 body.dark {
@@ -13,6 +15,8 @@ body.dark {
   --body-background: #282c35;
   --body-text: #fff;
   --theme-background: #000;
+  --gradient-from: rgba(16, 0, 0, 0);
+  --gardient-to: #222222;
 }
 
 @-ms-viewport {
@@ -2993,7 +2997,10 @@ button:focus {
   }
 }
 .m-carousel-image__image::after {
-  background-image: linear-gradient(rgba(248, 250, 252, 0), #f8fafc);
+  background-image: linear-gradient(
+    var(----gradient-from),
+    var(----gradient-to)
+  );
   bottom: -0.0625rem;
   content: "";
   height: 20%;
@@ -4530,7 +4537,10 @@ button:focus {
   }
 }
 .o-dialog::after {
-  background-image: linear-gradient(rgba(248, 250, 252, 0), #f8fafc);
+  background-image: linear-gradient(
+    var(----gradient-from),
+    var(----gradient-to)
+  );
   bottom: 0;
   content: "";
   height: 1.25rem;
@@ -5757,7 +5767,11 @@ button:focus {
   z-index: 10;
 }
 .o-tutorial-article__bar::after {
-  background-image: linear-gradient(to bottom, #f8fafc, rgba(248, 250, 252, 0));
+  background-image: linear-gradient(
+    to bottom,
+    var(----gradient-to),
+    var(----gradient-from)
+  );
   bottom: -1.25rem;
   content: "";
   display: block;
@@ -6160,7 +6174,10 @@ button:focus {
   }
 }
 .o-work-detail-item__image::after {
-  background-image: linear-gradient(rgba(248, 250, 252, 0), #f8fafc);
+  background-image: linear-gradient(
+    var(----gradient-from),
+    var(----gradient-to)
+  );
   bottom: -0.125rem;
   content: "";
   height: 20%;
