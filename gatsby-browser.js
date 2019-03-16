@@ -5,7 +5,6 @@
  */
 
 // You can delete this file if you're not using it
-import dialogPolyfill from "dialog-polyfill"
 
 const disqusEmbedCode = () =>
   /**
@@ -28,6 +27,6 @@ const disqusEmbedCode = () =>
 
 exports.onRouteUpdate = ({ location }) => {
   var dialog = document.querySelector("dialog")
-  if (dialog) dialogPolyfill.registerDialog(dialog)
-  if (location.href.indexOf("/blog/") > -1) disqusEmbedCode()
+  if (dialog) window.dialogPolyfill.registerDialog(dialog)
+  if (document.getElementById("disqus_thread")) disqusEmbedCode()
 }

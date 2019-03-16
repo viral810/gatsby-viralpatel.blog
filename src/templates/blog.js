@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Fragment } from "react"
 import { graphql, Link } from "gatsby"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
@@ -44,10 +44,10 @@ export default function Template({
           <div className="m-masthead__description">
             <p className="a-type-xs">
               Tags:{" "}
-              {frontmatter.tags.map(tag => (
-                <>
+              {frontmatter.tags.map((tag, index) => (
+                <Fragment key={index}>
                   <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>{tag}</Link>{" "}
-                </>
+                </Fragment>
               ))}
             </p>
           </div>

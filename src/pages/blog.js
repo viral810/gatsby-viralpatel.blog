@@ -61,7 +61,7 @@ const BlogPage = ({ data }) => {
               return (
                 <div
                   className="m-tutorial-item__content"
-                  key={node.frontmatter.date}
+                  key={node.frontmatter.path}
                 >
                   <h2 className="a-type-md m-tutorial-item__heading">
                     <Link
