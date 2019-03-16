@@ -2071,7 +2071,7 @@ button:focus {
   width: 0.9375rem;
 }
 .a-radio--alt .a-radio__box::after {
-  background-color: #f8fafc;
+  background-color: var(--theme-background);
 }
 .a-radio__input:checked + .a-radio__label .a-radio__icon {
   opacity: 1;
@@ -4502,7 +4502,7 @@ button:focus {
   transform: translateY(0);
 }
 .o-dialog {
-  background-color: #f8fafc;
+  background-color: var(--theme-background);
   border: none;
   border-radius: 0.25rem;
   bottom: 0;
@@ -5157,7 +5157,7 @@ button:focus {
   }
 }
 .enhance .o-poll--highlight .a-checkbox__box::after {
-  background-color: #f8fafc;
+  background-color: var(--theme-background);
 }
 @supports (display: grid) {
   .o-publication-listing {
@@ -5746,7 +5746,7 @@ button:focus {
   }
 }
 .o-tutorial-article__bar {
-  background-color: #f8fafc;
+  background-color: var(--theme-background);
   margin-left: -1.25rem;
   margin-right: -1.25rem;
   margin-top: -1.25rem;
