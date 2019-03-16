@@ -4,7 +4,7 @@
   --secondary: #b4ffff;
   --body-background: #f4feff;
   --body-text: #212b36;
-  --theme-backround: #fff;
+  --theme-background: #fff;
 }
 
 body.dark {
@@ -12,7 +12,7 @@ body.dark {
   --secondary: #4bacb8;
   --body-background: #282c35;
   --body-text: #fff;
-  --theme-backround: #000;
+  --theme-background: #000;
 }
 
 @-ms-viewport {
