@@ -5,6 +5,7 @@
  */
 
 // You can delete this file if you're not using it
+import dialogPolyfill from "dialog-polyfill"
 
 const disqusEmbedCode = () =>
   /**
@@ -26,7 +27,7 @@ const disqusEmbedCode = () =>
   })()
 
 exports.onRouteUpdate = ({ location }) => {
-  if (location.href.indexOf("/blog/") > -1) {
-    disqusEmbedCode()
-  }
+  var dialog = document.querySelector("dialog")
+  if (dialog) dialogPolyfill.registerDialog(dialog)
+  if (location.href.indexOf("/blog/") > -1) disqusEmbedCode()
 }
