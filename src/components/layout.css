@@ -1143,7 +1143,7 @@ abbr {
 }
 .a-type-content code {
   font-size: 0.875rem;
-  background-color: #e4f3ed;
+  background-color: var(--secondary);
   border-radius: 0.125rem;
   font-family: "monaco";
   padding: 0.125rem 0.3125rem;
@@ -2241,7 +2241,7 @@ button:focus {
   }
 }
 .a-tag {
-  background-color: #e4f3ed;
+  background-color: var(--secondary);
   border-radius: 0.125rem;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
