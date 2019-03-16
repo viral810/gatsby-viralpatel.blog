@@ -9,6 +9,10 @@ const showMenuListener = () => {
   el.setAttribute("aria-hidden", value.toString())
 }
 
+const toggleDarkMode = () => {
+  document.body.classList.toggle("dark")
+}
+
 const Header = ({ siteTitle }) => (
   <header className="o-header">
     <div className="o-header__container">
@@ -53,6 +57,17 @@ const Header = ({ siteTitle }) => (
         <div className="m-nav__menu js-nav-menu" aria-hidden="false">
           <div className="m-nav__menu-inner">
             <ul className="m-nav__menu-list" role="menubar">
+              <li className="m-nav__menu-item" role="menuitem">
+                <button
+                  className="a-link m-nav__menu-link"
+                  onClick={toggleDarkMode}
+                >
+                  {" "}
+                  <span role="img" aria-label="toggle">
+                    🌛
+                  </span>
+                </button>
+              </li>
               <li className="m-nav__menu-item" role="menuitem">
                 <Link
                   to="/what-i-am-reading"
