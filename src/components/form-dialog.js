@@ -37,8 +37,9 @@ const FormDialog = () => {
               <div className="o-newsletter__content">
                 <form
                   className="o-newsletter__form"
-                  action="https://formspree.io/pviral810@gmail.com"
-                  method="post"
+                  acceptCharset="UTF-8"
+                  action="https://formkeep.com/f/95964a1c29ff"
+                  method="POST"
                 >
                   <fieldset className="o-newsletter__fieldset">
                     <legend className="a-type-sm o-newsletter__legend">
