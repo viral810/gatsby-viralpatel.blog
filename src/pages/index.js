@@ -274,9 +274,9 @@ const IndexPage = () => (
           <h2 className="a-type-xs m-call-to-action-link__heading">
             Learn more about web development work...
           </h2>
-          <Link to="/blog" className="a-link m-call-to-action-link__link">
+          <a href="/blog" className="a-link m-call-to-action-link__link">
             blog
-          </Link>
+          </a>
         </div>
       </section>
     </div>

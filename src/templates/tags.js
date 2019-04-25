@@ -48,24 +48,24 @@ const Tags = ({ pageContext, data }) => {
               const { title, path } = node.frontmatter
               return (
                 <li key={path}>
-                  <Link
+                  <a
                     className="a-link a-type-xs m-tutorial-item__heading-link"
-                    to={path}
+                    href={path}
                   >
                     {title}
-                  </Link>
+                  </a>
                 </li>
               )
             })}
           </div>
         </article>
         <br />
-        <Link
+        <a
           className="a-link a-type-xs m-tutorial-item__heading-link"
-          to="/tags"
+          href="/tags"
         >
           See All tags
-        </Link>
+        </a>
         <br />
         <FormDialog />
       </div>

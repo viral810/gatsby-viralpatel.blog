@@ -46,7 +46,7 @@ export default function Template({
               Tags:{" "}
               {frontmatter.tags.map((tag, index) => (
                 <Fragment key={index}>
-                  <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>{tag}</Link>{" "}
+                  <a href={`/tags/${kebabCase(tag.fieldValue)}/`}>{tag}</a>{" "}
                 </Fragment>
               ))}
             </p>

@@ -16,12 +16,12 @@ const toggleDarkMode = () => {
 const Header = ({ siteTitle }) => (
   <header className="o-header">
     <div className="o-header__container">
-      <Link to="/" className="o-header__logo">
+      <a href="/" className="o-header__logo">
         <span className="a-button a-button--square o-header__logo-mark">
           <span className="o-header__logo-mark-text">VP</span>
         </span>
         <span className="o-header__logo-text">Viral Patel</span>
-      </Link>
+      </a>
       <nav
         className="m-nav js-nav"
         aria-label="Main menu"
@@ -69,27 +69,27 @@ const Header = ({ siteTitle }) => (
                 </button>
               </li>
               <li className="m-nav__menu-item" role="menuitem">
-                <Link
-                  to="/what-i-am-reading"
+                <a
+                  href="/what-i-am-reading"
                   className="a-link m-nav__menu-link"
                 >
                   Books I Read
-                </Link>
+                </a>
               </li>
               <li className="m-nav__menu-item" role="menuitem">
-                <Link to="/tech-stack" className="a-link m-nav__menu-link">
+                <a href="/tech-stack" className="a-link m-nav__menu-link">
                   Tech Stack
-                </Link>
+                </a>
               </li>
               <li className="m-nav__menu-item" role="menuitem">
-                <Link to="/blog" className="a-link m-nav__menu-link">
+                <a href="/blog" className="a-link m-nav__menu-link">
                   Blog
-                </Link>
+                </a>
               </li>
               <li className="m-nav__menu-item" role="menuitem">
-                <Link to="/contact" className="a-button m-nav__menu-button">
+                <a href="/contact" className="a-button m-nav__menu-button">
                   Contact
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

@@ -33,24 +33,24 @@ const BlogPage = ({ data }) => {
         {/* <div className="m-masthead__description">
             <p className="a-type-xs">
               Learn more about topics such as{' '}
-              <Link
-                to="/tags/frontend-web-development"
+              <a
+                href="/tags/frontend-web-development"
               >front-end web development
-              </Link>
+              </a>
               ,{' '}
-              <Link to="/tags/es6-javascript">ES6 Javascript
-              </Link>
+              <a href="/tags/es6-javascript">ES6 Javascript
+              </a>
               ,{' '}
-              <Link to="/tags/react">React
-              </Link>
+              <a href="/tags/react">React
+              </a>
               ,{' '}
-              <Link to="/tags/ruby-on-rails">Ruby on Rails
-              </Link>
+              <a href="/tags/ruby-on-rails">Ruby on Rails
+              </a>
               ,{' '}
-              <Link
-                to="/tags/cloud-computing"
+              <a
+                href="/tags/cloud-computing"
               >Cloud Computing
-              </Link>
+              </a>
             </p>
           </div> */}
       </header>
@@ -64,12 +64,12 @@ const BlogPage = ({ data }) => {
                   key={node.frontmatter.path}
                 >
                   <h2 className="a-type-md m-tutorial-item__heading">
-                    <Link
+                    <a
                       className="a-link m-tutorial-item__heading-link"
-                      to={node.frontmatter.path}
+                      href={node.frontmatter.path}
                     >
                       {node.frontmatter.title}
-                    </Link>
+                    </a>
                   </h2>
                 </div>
               )

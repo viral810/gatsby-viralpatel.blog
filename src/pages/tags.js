@@ -48,12 +48,12 @@ const TagsPage = ({
             return (
               <div className="m-tutorial-item__content" key={tag.fieldValue}>
                 <h2 className="a-type-md m-tutorial-item__heading">
-                  <Link
+                  <a
                     className="a-link m-tutorial-item__heading-link"
-                    to={`/tags/${kebabCase(tag.fieldValue)}/`}
+                    href={`/tags/${kebabCase(tag.fieldValue)}/`}
                   >
                     {tag.fieldValue} ({tag.totalCount})
-                  </Link>
+                  </a>
                 </h2>
               </div>
             )
