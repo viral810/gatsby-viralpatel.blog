@@ -3,7 +3,9 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'npm run build'
+        sh '''
+apt install nodejs npm
+&& npm run build'''
       }
     }
   }
