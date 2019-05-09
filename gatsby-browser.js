@@ -28,5 +28,5 @@ const disqusEmbedCode = () =>
 exports.onRouteUpdate = ({ location }) => {
   var dialog = document.querySelector("dialog")
   if (dialog) window.dialogPolyfill.registerDialog(dialog)
-  if (document.getElementById("disqus_thread")) disqusEmbedCode()
+  // if (document.getElementById("disqus_thread")) disqusEmbedCode()
 }
