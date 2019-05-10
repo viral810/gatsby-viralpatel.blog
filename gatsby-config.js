@@ -40,10 +40,15 @@ module.exports = {
             resolve: `gatsby-remark-vscode`,
             // All options are optional. Defaults shown here.
             options: {
-              colorTheme: "Dark+ (default dark)", // Read on for list of included themes. Also accepts object and function forms.
+              colorTheme: "Night Owl", // Read on for list of included themes. Also accepts object and function forms.
               wrapperClassName: "", // Additional class put on 'pre' tag
               injectStyles: true, // Injects (minimal) additional CSS for layout and scrolling
-              extensions: [], // Extensions to download from the marketplace to provide more languages and themes
+              extensions: [
+                {
+                  identifier: "sdras.night-owl",
+                  version: "1.1.3",
+                },
+              ], // Extensions to download from the marketplace to provide more languages and themes
               languageAliases: {}, // Map of custom/unknown language codes to standard/known language codes
               replaceColor: x => x, // Function allowing replacement of a theme color with another. Useful for replacing hex colors with CSS variables.
               getLineClassName: ({
