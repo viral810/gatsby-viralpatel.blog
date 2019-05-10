@@ -40,7 +40,7 @@ module.exports = {
             resolve: `gatsby-remark-vscode`,
             // All options are optional. Defaults shown here.
             options: {
-              colorTheme: "Night Owl", // Read on for list of included themes. Also accepts object and function forms.
+              colorTheme: "Tomorrow Night Blue", // Read on for list of included themes. Also accepts object and function forms.
               wrapperClassName: "", // Additional class put on 'pre' tag
               injectStyles: true, // Injects (minimal) additional CSS for layout and scrolling
               extensions: [
