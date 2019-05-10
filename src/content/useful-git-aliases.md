@@ -7,7 +7,7 @@ tags: ["react", "javascript", "functional"]
 
 Here is how you setup aliases and shortcuts for git commands. Edit `.gitconfig` file in your `$HOME` directory.
 
-```bash
+```yml
 [alias]
   co = checkout
   ci = commit
@@ -20,14 +20,14 @@ Here is how you setup aliases and shortcuts for git commands. Edit `.gitconfig` 
 
 Refer to the branch you've checked out when you use `git push` and/or `git pull`
 
-```bash
+```yml
 [push]
   default = current
 ```
 
 Here are some more goodies in your aliases list. Thank me later :sunglasses:
 
-```bash
+```yml
 [alias]
   # Adds and commits files with a single command
   add-commit = !git add -A && git commit

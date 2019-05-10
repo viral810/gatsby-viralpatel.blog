@@ -1145,13 +1145,15 @@ abbr {
   border: none;
   height: 0.0625rem;
 }
-.a-type-content code {
+
+.a-type-content p code {
   font-size: 0.875rem;
   background-color: var(--secondary);
   border-radius: 0.125rem;
   font-family: "monaco";
   padding: 0.125rem 0.3125rem;
 }
+
 @media screen and (min-width: 32em) {
   .a-type-content code {
     font-size: 0.9375rem;
@@ -1167,19 +1169,7 @@ abbr {
     font-size: 1.0625rem;
   }
 }
-.a-type-content pre code {
-  background-color: transparent;
-  display: block;
-  overflow: auto;
-  padding: 1.25rem 1.25rem;
-  -webkit-overflow-scrolling: touch;
-}
-@media screen and (min-width: 48em) {
-  .a-type-content pre code {
-    border-radius: 0.125rem;
-    padding: 1.25rem 1.875rem;
-  }
-}
+
 @media screen and (min-width: 64em) {
   .a-type-content .a-image__inner {
     margin-left: -1.875rem;
@@ -7367,11 +7357,4 @@ button:focus {
       grid-area: item;
     }
   }
-}
-
-/* Custom Styles */
-.a-type-content pre {
-  /* box-shadow: 0 0.425rem 0.5375rem 0 rgba(33,43,54,0.1); */
-  border-radius: 5px;
-  background: var(--primary);
 }
