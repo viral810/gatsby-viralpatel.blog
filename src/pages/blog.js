@@ -27,33 +27,6 @@ const BlogPage = ({ data }) => {
           `tech blogger`,
         ]}
       />
-      <header className="m-masthead l-spacing-bottom-1 m-masthead--offset">
-        <h1 className="a-type-xxl m-masthead__heading">Tech Blogs</h1>
-
-        {/* <div className="m-masthead__description">
-            <p className="a-type-xs">
-              Learn more about topics such as{' '}
-              <Link
-                to="/tags/frontend-web-development"
-              >front-end web development
-              </Link>
-              ,{' '}
-              <Link to="/tags/es6-javascript">ES6 Javascript
-              </Link>
-              ,{' '}
-              <Link to="/tags/react">React
-              </Link>
-              ,{' '}
-              <Link to="/tags/ruby-on-rails">Ruby on Rails
-              </Link>
-              ,{' '}
-              <Link
-                to="/tags/cloud-computing"
-              >Cloud Computing
-              </Link>
-            </p>
-          </div> */}
-      </header>
       <div className="o-tutorial-listing l-spacing-bottom-5">
         <article className="m-tutorial-item o-tutorial-listing__item">
           <div className="center mw6 pa3 pa4-ns">
@@ -63,14 +36,16 @@ const BlogPage = ({ data }) => {
                   className="m-tutorial-item__content"
                   key={node.frontmatter.path}
                 >
-                  <h2 className="a-type-md m-tutorial-item__heading">
-                    <Link
-                      className="a-link m-tutorial-item__heading-link"
-                      to={node.frontmatter.path}
-                    >
+                  <h3 className="a-type-md m-tutorial-item__heading">
+                    <Link className="a-link" to={node.frontmatter.path}>
                       {node.frontmatter.title}
                     </Link>
-                  </h2>
+                  </h3>
+                  <p className="m-section-header__description">
+                    {node.excerpt}
+                  </p>
+                  <br />
+                  <br />
                 </div>
               )
             })}
@@ -86,6 +61,7 @@ export const query = graphql`
     allMarkdownRemark {
       edges {
         node {
+          excerpt(pruneLength: 250)
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             path
