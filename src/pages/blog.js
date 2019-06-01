@@ -36,14 +36,12 @@ const BlogPage = ({ data }) => {
                   className="m-tutorial-item__content"
                   key={node.frontmatter.path}
                 >
-                  <h3 className="a-type-md m-tutorial-item__heading">
+                  <h3 className="a-type-sm m-tutorial-item__heading">
                     <Link className="a-link" to={node.frontmatter.path}>
                       {node.frontmatter.title}
                     </Link>
                   </h3>
-                  <p className="m-section-header__description">
-                    {node.excerpt}
-                  </p>
+                  <p>{node.excerpt}</p>
                   <br />
                   <br />
                 </div>

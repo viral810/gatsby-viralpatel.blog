@@ -3,7 +3,7 @@
   --primary: #f8bbd0;
   --secondary: #ffeeff;
   --body-background: #fff;
-  --body-text: #212b36;
+  --body-text: #454f5b;
   --theme-background: #fff;
   --gradient-from: rgba(248, 250, 252, 0);
   --gardient-to: #f8fafc;
@@ -168,6 +168,11 @@ img {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
+
+#main-content {
+  margin-bottom: 4rem;
+}
+
 @media screen and (min-width: 48em) {
   .l-container {
     padding-left: 2.5rem;
@@ -1475,6 +1480,7 @@ button:focus {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  cursor: pointer;
   background-color: transparent;
   border: 0.0625rem solid var(--body-text);
   border-radius: 0.125rem;
@@ -1525,6 +1531,13 @@ button:focus {
   -webkit-transform: translate(0, 0);
   transform: translate(0, 0);
 } */
+
+.a-button:hover,
+.a-button:focus {
+  box-shadow: 0 0 0 0.25rem var(--primary);
+  outline: none;
+}
+
 @media screen and (min-width: 48em) {
   .a-button {
     padding: 0.625rem 1.875rem;

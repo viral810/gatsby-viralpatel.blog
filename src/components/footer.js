@@ -1,5 +1,9 @@
 import React from "react"
 
+const toggleDarkMode = () => {
+  document.body.classList.toggle("dark")
+}
+
 const Footer = () => {
   return (
     <footer className="o-footer" style={{ marginTop: 35 }}>
@@ -9,6 +13,17 @@ const Footer = () => {
             Follow Viral Patel on:
           </strong>
           <ul className="m-social-links__list">
+            <li className="m-social-links__item">
+              <button
+                className="a-button a-button--secondary m-nav__menu-button a-button--square"
+                onClick={toggleDarkMode}
+              >
+                {" "}
+                <span role="img" aria-label="toggle">
+                  🔦
+                </span>
+              </button>
+            </li>
             <li className="m-social-links__item">
               <a
                 className="a-button a-button--secondary a-button--square m-social-links__button"
@@ -67,7 +82,7 @@ const Footer = () => {
               </a>
             </li>
 
-            <li className="m-social-links__item">
+            {/* <li className="m-social-links__item">
               <a
                 className="a-button a-button--secondary a-button--square m-social-links__button"
                 href="https://www.linkedin.com/in/viralpatel810/"
@@ -84,7 +99,7 @@ const Footer = () => {
                   <path d="M16 15.545h-3.536v-5.113c0-1.338-.553-2.252-1.77-2.252-.93 0-1.448.617-1.689 1.211-.09.213-.076.51-.076.808v5.347h-3.503s.045-9.058 0-9.881h3.503v1.551c.207-.678 1.326-1.646 3.113-1.646 2.216 0 3.958 1.421 3.958 4.482v5.494zm-14.117-11.117h-.023c-1.129 0-1.861-.755-1.861-1.713 0-.976.754-1.716 1.905-1.716s1.858.738 1.881 1.713c0 .957-.73 1.716-1.902 1.716zm-1.48 1.236h3.119v9.881h-3.119v-9.881z" />
                 </svg>
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

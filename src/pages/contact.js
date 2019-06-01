@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Form from "../components/Form"
 
 const IndexPage = () => (
   <Layout>
@@ -26,13 +27,13 @@ const IndexPage = () => (
         <h1 className="a-type-xxl m-masthead__heading">Contact Me</h1>
 
         <div className="m-masthead__description">
-          <p className="a-type-xs">
-            Anyway I can help you?{" "}
-            <a href="mailto:pviral810@gmail.com">Get in touch</a>
-          </p>
+          <p className="a-type-xs">Anyway I can help you? </p>
         </div>
       </div>
     </header>
+    <div className="l-container">
+      <Form />
+    </div>
   </Layout>
 )
 

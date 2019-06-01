@@ -13,4 +13,6 @@ As an example:
 this.props?.user?.email
 ```
 
-Optional Chaining behaves similarly to Ruby’s pretzel(&) operator. [Babel - Optional Chaining](https://babeljs.io/docs/en/babel-plugin-proposal-optional-chaining)
+Optional Chaining behaves similarly to Ruby’s pretzel(&) operator.
+
+Checkout the official babel documentation. [Babel - Optional Chaining](https://babeljs.io/docs/en/babel-plugin-proposal-optional-chaining)
