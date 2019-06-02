@@ -3,7 +3,7 @@
   --primary: #f8bbd0;
   --secondary: #ffeeff;
   --body-background: #fff;
-  --body-text: #454f5b;
+  --body-text: #212b36;
   --theme-background: #fff;
   --gradient-from: rgba(248, 250, 252, 0);
   --gardient-to: #f8fafc;
@@ -133,8 +133,8 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: "Playfair Display", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 html ::-moz-selection {
   background: var(--secondary);
@@ -1157,6 +1157,10 @@ abbr {
   border-radius: 0.125rem;
   font-family: "monaco";
   padding: 0.125rem 0.3125rem;
+}
+
+.a-type-content code {
+  font-family: "monaco";
 }
 
 @media screen and (min-width: 32em) {
