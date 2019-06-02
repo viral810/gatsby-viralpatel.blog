@@ -1,16 +1,38 @@
-import React from "react"
+import React, { useState } from "react"
 
 import useForm from "../utils/useForm"
 
 const Form = () => {
   const { values, handleChange, handleSubmit } = useForm(login)
+  const [isSuccess, setIsSuccess] = useState(false)
 
   function login() {
-    console.log(values)
+    const data = {
+      toEmails: ["pviral810@gmail.com"],
+      subject: "Contact Form from viralpatel.blog",
+      replyToEmails: [values.email],
+      message: values.message,
+    }
+    fetch("https://3lujo4z6z0.execute-api.us-east-1.amazonaws.com/Prod/send", {
+      method: "POST",
+      mode: "cors",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    }).then(() => setIsSuccess(true))
   }
 
   return (
     <form onSubmit={handleSubmit}>
+      {isSuccess && (
+        <>
+          <div className="a-message a-message--success">
+            <strong>Message Successfully Sent</strong>
+          </div>
+          <br />
+        </>
+      )}
       <div className="input">
         <input
           className="a-input__input"
@@ -26,12 +48,11 @@ const Form = () => {
       <div className="input">
         <textarea
           className="a-input__input"
-          type="password"
-          name="password"
+          name="message"
           placeholder="Ask away...."
           rows={4}
           onChange={handleChange}
-          value={values.password || ""}
+          value={values.message || ""}
           required
         />
       </div>
