@@ -1,7 +1,7 @@
 /* eslint-disable */
 :root {
-  --primary: #f8bbd0;
-  --secondary: #ffeeff;
+  --primary: #0cf7f7;
+  --secondary: #92efef;
   --body-background: #fff;
   --body-text: #212b36;
   --theme-background: #fff;
@@ -10,8 +10,8 @@
 }
 
 body.dark {
-  --primary: #e91e63;
-  --secondary: #ff94c2;
+  --primary: #222;
+  --secondary: #212528;
   --body-background: #282c35;
   --body-text: #fff;
   --theme-background: #000;
