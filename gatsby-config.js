@@ -43,14 +43,9 @@ module.exports = {
               colorTheme: "Tomorrow Night Blue", // Read on for list of included themes. Also accepts object and function forms.
               wrapperClassName: "", // Additional class put on 'pre' tag
               injectStyles: true, // Injects (minimal) additional CSS for layout and scrolling
-              extensions: [
-                {
-                  identifier: "sdras.night-owl",
-                  version: "1.1.3",
-                },
-              ], // Extensions to download from the marketplace to provide more languages and themes
+              extensions: ["night-owl"], // Extensions to download from the marketplace to provide more languages and themes
               languageAliases: {}, // Map of custom/unknown language codes to standard/known language codes
-              replaceColor: x => x, // Function allowing replacement of a theme color with another. Useful for replacing hex colors with CSS variables.
+              replaceColor: (x) => x, // Function allowing replacement of a theme color with another. Useful for replacing hex colors with CSS variables.
               getLineClassName: ({
                 // Function allowing dynamic setting of additional class names on individual lines
                 content, //   - the string content of the line
