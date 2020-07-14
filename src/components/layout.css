@@ -515,7 +515,7 @@ a:focus {
     linear-gradient(var(--secondary), var(--secondary));
   background-position: bottom left, bottom left;
   background-repeat: no-repeat;
-  background-size: 0% 35%, 100% 35%;
+  background-size: 0% 20%, 100% 20%;
   color: var(--body-text);
   font-weight: 800;
   transition: background-size 0.3s cubic-bezier(0.5, 0.61, 0.355, 1),
@@ -529,7 +529,7 @@ a:focus {
 }
 .a-type-xxl .a-link,
 .a-type-xxl.a-link {
-  background-size: 0% 30%, 100% 30%;
+  background-size: 0% 20%, 100% 20%;
   background-position: bottom 10% left, bottom 10% left;
 }
 .a-type-xxl .a-link:hover,
@@ -538,7 +538,7 @@ a:focus {
 }
 .a-type-xl .a-link,
 .a-type-xl.a-link {
-  background-size: 0% 30%, 100% 30%;
+  background-size: 0% 20%, 100% 20%;
   background-position: bottom 10% left, bottom 10% left;
 }
 .a-type-xl .a-link:hover,
@@ -547,7 +547,7 @@ a:focus {
 }
 .a-type-lg .a-link,
 .a-type-lg.a-link {
-  background-size: 0% 30%, 100% 30%;
+  background-size: 0% 20%, 100% 20%;
   background-position: bottom 10% left, bottom 10% left;
 }
 .a-type-lg .a-link:hover,
@@ -1093,7 +1093,7 @@ abbr {
     linear-gradient(var(--secondary), var(--secondary));
   background-position: bottom left, bottom left;
   background-repeat: no-repeat;
-  background-size: 0% 35%, 100% 35%;
+  background-size: 0% 20%, 100% 20%;
   color: var(--body-text);
   font-weight: 800;
   transition: background-size 0.3s cubic-bezier(0.5, 0.61, 0.355, 1),
@@ -3286,7 +3286,7 @@ button:focus {
     linear-gradient(var(--secondary), var(--secondary));
   background-position: bottom left, bottom left;
   background-repeat: no-repeat;
-  background-size: 0% 35%, 100% 35%;
+  background-size: 0% 20%, 100% 20%;
   color: var(--body-text);
   font-weight: 800;
   transition: background-size 0.3s cubic-bezier(0.5, 0.61, 0.355, 1),
@@ -3438,7 +3438,7 @@ button:focus {
   }
 }
 .m-nav__menu-link.is-active {
-  background-size: 100% 35%, 100% 35%;
+  background-size: 100% 20%, 100% 20%;
   transition: box-shadow 0.3s cubic-bezier(0.5, 0.61, 0.355, 1);
 }
 .m-pagination__label {
@@ -7139,7 +7139,7 @@ button:focus {
     linear-gradient(var(--secondary), var(--secondary));
   background-position: bottom left, bottom left;
   background-repeat: no-repeat;
-  background-size: 0% 35%, 100% 35%;
+  background-size: 0% 20%, 100% 20%;
   color: var(--body-text);
   font-weight: 800;
   transition: background-size 0.3s cubic-bezier(0.5, 0.61, 0.355, 1),
