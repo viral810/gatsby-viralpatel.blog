@@ -52,8 +52,8 @@ const Header = ({ siteTitle }) => (
 
         <div className="m-nav__menu js-nav-menu" aria-hidden="false">
           <div className="m-nav__menu-inner">
-            <ul className="m-nav__menu-list" role="menubar">
-              <li className="m-nav__menu-item" role="menuitem">
+            <ul className="m-nav__menu-list">
+              <li className="m-nav__menu-item">
                 <Link
                   to="/what-i-am-reading"
                   className="a-link m-nav__menu-link"
@@ -61,12 +61,12 @@ const Header = ({ siteTitle }) => (
                   Books I Read
                 </Link>
               </li>
-              <li className="m-nav__menu-item" role="menuitem">
+              <li className="m-nav__menu-item">
                 <Link to="/blog" className="a-link m-nav__menu-link">
                   Blog
                 </Link>
               </li>
-              <li className="m-nav__menu-item" role="menuitem">
+              <li className="m-nav__menu-item">
                 <Link to="/contact" className="a-button m-nav__menu-button">
                   Contact
                 </Link>

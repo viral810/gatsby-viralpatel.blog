@@ -14,9 +14,7 @@ export default function Template({
   return (
     <Layout>
       <SEO
-        title={`${
-          frontmatter.title
-        } | Viral Patel | Software Developer | Toronto`}
+        title={`${frontmatter.title} | Viral Patel | Software Developer | Toronto`}
         description="Viral Patel, Software Developer, a tech blogger working in Toronto, ON Canada. Follow Viral on Instagram and other social media on @thedecodedcoder"
         keywords={[
           `developer`,
@@ -46,7 +44,7 @@ export default function Template({
               Tags:{" "}
               {frontmatter.tags.map((tag, index) => (
                 <Fragment key={index}>
-                  <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>{tag}</Link>{" "}
+                  <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>{" "}
                 </Fragment>
               ))}
             </p>
