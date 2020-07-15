@@ -30,8 +30,8 @@ const IndexPage = () => (
       <div className="m-masthead__description">
         <p className="a-type-xs">
           Toronto based Full Stack Developer working with teams and startups to
-          create websites, scalable web applications and systems that focus on
-          performance, amazing UI/UX design, and simplicity.
+          create scalable web applications, saas solutions and distributed
+          systems to help businesses create useful products for their customers.
         </p>
       </div>
       <div className="o-service-listing t-home__services" />
@@ -44,11 +44,11 @@ const IndexPage = () => (
               <li>
                 Working at{" "}
                 <a
-                  href="http://www.pathfactory.com/"
+                  href="https://www.getirwin.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  PathFactory
+                  Irwin
                 </a>{" "}
                 on some exciting projects
               </li>{" "}
@@ -64,8 +64,8 @@ const IndexPage = () => (
                 ; a web app for pomodoro timer
               </li>{" "}
               <li>
-                Writing new tutorials – mostly focused on application
-                development and cloud technologies
+                Writing new technical essays and blog post that varies on topics
+                of software engineering.
               </li>{" "}
               <li>
                 Listening to audiobook{" "}
@@ -116,6 +116,34 @@ const IndexPage = () => (
               <li className="m-work-history-item o-work-history-listing__item">
                 <div className="m-work-history-item__header">
                   <h3 className="a-type-sm m-work-history-item__heading">
+                    Irwin
+                  </h3>
+                  <span className="m-work-history-item__date">
+                    (
+                    <time
+                      className="m-work-history-item__date-from"
+                      dateTime="2018"
+                    >
+                      2019
+                    </time>{" "}
+                    -{" "}
+                    <time
+                      className="m-work-history-item__date-to"
+                      dateTime="2019"
+                    >
+                      Present
+                    </time>
+                    )
+                  </span>
+                </div>
+                <span className="m-work-history-item__job-title">
+                  Senior Software developer
+                </span>
+              </li>
+
+              <li className="m-work-history-item o-work-history-listing__item">
+                <div className="m-work-history-item__header">
+                  <h3 className="a-type-sm m-work-history-item__heading">
                     PathFactory
                   </h3>
                   <span className="m-work-history-item__date">
@@ -131,7 +159,7 @@ const IndexPage = () => (
                       className="m-work-history-item__date-to"
                       dateTime="2019"
                     >
-                      Present
+                      2019
                     </time>
                     )
                   </span>
@@ -152,7 +180,7 @@ const IndexPage = () => (
                       className="m-work-history-item__date-from"
                       dateTime="2017"
                     >
-                      2017
+                      2016
                     </time>{" "}
                     -{" "}
                     <time
@@ -187,7 +215,7 @@ const IndexPage = () => (
                       className="m-work-history-item__date-to"
                       dateTime="2017"
                     >
-                      2017
+                      2018
                     </time>
                     )
                   </span>

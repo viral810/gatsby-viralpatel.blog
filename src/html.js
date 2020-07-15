@@ -11,6 +11,10 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        <meta
+          name="google-site-verification"
+          content="4ZH5dsRu83rMAihU7NqRg78T0bn0zft-PlXvcaIwrIs"
+        />
         {props.headComponents}
         <link
           href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap"
