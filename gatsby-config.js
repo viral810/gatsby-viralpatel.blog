@@ -9,6 +9,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-advanced-sitemap`,
+    `gatsby-plugin-feed`,
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-google-analytics`,
