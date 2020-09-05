@@ -1,9 +1,5 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2d5535af-9ca1-4978-a388-e58c023e7f21/deploy-status)](https://app.netlify.com/sites/objective-wescoff-7b508c/deploys)
+
 <h1 align="center">
   Gatsby's default starter
 </h1>
